@@ -38,7 +38,7 @@ a {
 
 .header {
   background: linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
-  margin-bottom: 48px;
+  margin-bottom: 0px;
   padding: 20px 0;
 
 }
@@ -93,6 +93,7 @@ a {
 
 .field{
   margin: 10px 0;
+  color: black
 }
 
 .actions{
@@ -123,10 +124,12 @@ a {
 .greeting{
   margin-bottom: 20px;
   text-decoration: none;
+
 }
 .greeting__link{
   text-decoration: underline;
   text-decoration: none;
+  color: black
 }
 .page-heading {
   font-size: 30px;
@@ -142,6 +145,7 @@ a {
 .card {
   width: calc((100% - 50px) / 3);
   margin-bottom: 40px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 .card__img {
   margin-bottom: 16px;
@@ -151,9 +155,11 @@ a {
   font-size: 20px;
   margin-bottom: 8px;
   font-weight: bold;
+  color: white
 }
 .card__summary {
   font-size: 16px;
+  
 }
 .card__user {
   display: block;
@@ -162,6 +168,7 @@ a {
   text-align: right;
   text-decoration: underline;
   text-decoration: none;
+  color: white
 }
 
 /* 詳細ページ */
@@ -172,14 +179,16 @@ a {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 .prototype__user{
   display: block;
   font-size: 16px;
-  color: #999;
+  color: white;
   text-align: center;
   text-decoration: underline;
   text-decoration: none;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 .prototype__image{
   width: 40%;
@@ -191,15 +200,21 @@ a {
   align-items: center;
   flex-direction: column;
   margin-bottom: 8px;
+  color: white
 }
 .detail__title{
   font-size: 20px;
   font-weight: bold;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+.detail__message {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 .prototype__manage{
   display: flex;
   justify-content: center;
   padding-top: 16px;
+  
 }
 .prototype__btn{
   display: block;
@@ -212,6 +227,7 @@ a {
   border-radius: 3px;
   transition: 0.4s ease;
   margin: 0 4px;
+  color: black
 }
 .prototype__btn:hover{
   color: #fff;
@@ -219,13 +235,15 @@ a {
 }
 
 .prototype__comments{
-  background-color: #f6f6f6;
+  background-color: white;
   padding: 20px;
   margin: 28px 0 40px 0;
+  color: black
 }
 
 .comments_lists{
   padding-left: 20px;
+  color: black
 }
 
 .comments_list{
@@ -237,8 +255,13 @@ a {
   font-size: 16px;
   color: #999;
   text-decoration: underline;
+  text-decoration: none;
+  color: black
 }
 
+.page-heading{
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
 /* ユーザーページ */
 .user__wrapper{
   min-height: calc(100vh - 161px);
