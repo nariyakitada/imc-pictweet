@@ -179,6 +179,7 @@ a {
   color: #999;
   text-align: center;
   text-decoration: underline;
+  text-decoration: none;
 }
 .prototype__image{
   width: 40%;
