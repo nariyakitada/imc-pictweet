@@ -1,0 +1,21 @@
+<%= form_with model: @prototype, local: true do |f|%>
+  <div class="field">
+    <%= f.label :title, "タイトル" %><br />
+    <%= f.text_field :title, id:"prototype_title" %>
+  </div>
+
+ <div class="field">
+    <%= f.label :presenter, "演者名" %><br />
+    <%= f.text_field :presenter, id:"prototype_title" %>
+  </div>
+
+
+  <div class="field">
+    <%= f.label :image, "写真" %><br />
+    <%= f.file_field :image, id:"prototype_image" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "保存する", class: :form__btn  %>
+  </div>
+<% end %>
