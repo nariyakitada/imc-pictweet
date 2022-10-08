@@ -122,9 +122,11 @@ a {
 
 .greeting{
   margin-bottom: 20px;
+  text-decoration: none;
 }
 .greeting__link{
   text-decoration: underline;
+  text-decoration: none;
 }
 .page-heading {
   font-size: 30px;
@@ -159,6 +161,7 @@ a {
   color: #999;
   text-align: right;
   text-decoration: underline;
+  text-decoration: none;
 }
 
 /* 詳細ページ */
@@ -176,6 +179,7 @@ a {
   color: #999;
   text-align: center;
   text-decoration: underline;
+  text-decoration: none;
 }
 .prototype__image{
   width: 40%;
