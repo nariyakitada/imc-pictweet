@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   resources :prototypes do
     resources :comments  , only: :create
   end
+  resources :imus
+  resources :mottis
+  resources :kingas
+  resources :tweets
 end

@@ -1,0 +1,2 @@
+module ImusHelper
+end

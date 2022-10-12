@@ -1,0 +1,2 @@
+module MottisHelper
+end
