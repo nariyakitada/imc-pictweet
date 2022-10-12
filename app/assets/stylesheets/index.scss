@@ -1,7 +1,7 @@
 .main {
   width: 100%;
   height: 100%;
-  background-image: image-url('danger.png');
+  background-image: image-url('danger2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -15,8 +15,13 @@
 }
 
 .service-title {
-  font-size: 8vh;
+  font-size: 7vh;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.photo {
+  font-size: 10vh;
+  color:black;
 }
 
 .service-explain {
@@ -27,4 +32,22 @@
 
 .greeting {
   color:black;
+}
+
+.imc {
+  width: 200px;
+  height: 240px;
+}
+
+.title {
+  font-size: 3vh;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.w {
+  color:crimson
+}
+
+.q {
+  color:crimson
 }

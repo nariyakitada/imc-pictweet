@@ -1,18 +1,38 @@
 <main class="main">
-  
     <h2 class='service-title'>
-      パチンコ・パチスロ画像共有アプリ
+      ⬇︎⬇︎いむちゃんねる演者⬇︎⬇︎
     </h2>
-   
+    <p class="title">
+    ★クリックで来店スケジュールをチェック！
+    </p>
+
   
   
   <div class="inner">
 
-    
+    <%= link_to image_tag("imu.png", class:"imc"), "#" %>
+    <%= link_to image_tag("kinga.PNG", class:"imc"), "#" %>
+    <%= link_to image_tag("motti.PNG", class:"imc"), "#" %>
+    <%= link_to image_tag("nagiva.PNG", class:"imc"), "#" %>
+    <%= link_to image_tag("bba.PNG", class:"imc"), "#" %>
+    <%= link_to image_tag("poemu.PNG", class:"imc"), "#" %>
+    <%= link_to image_tag("sugi.PNG", class:"imc"), "#" %>
+    <%= link_to image_tag("takahashi.png", class:"imc"), "#" %>
+    <%= link_to image_tag("dekaon.png", class:"imc"), "#" %>
+    <%= link_to image_tag("fuke.png", class:"imc"), "#" %>
  
+ <h1 class=w>
+ 　　　　　今日本で一番面白いチャンネルがお届けする
+  </h1>
+  <h1 class=q>
+ 　　　　　一番ぶっ飛んだパチンコ・パチスロ番組!!
+</h1>
+
     <div class="card__wrapper">
-      
-      <%= render partial: "prototype",collection: @prototypes%>
+      <h2 class='photo'>
+      <%= link_to "パチンコ・パチスロ画像共有はこちら⬅︎", "#"%>
+    </h2>
+      <%#= render partial: "prototype",collection: @prototypes%>
     </div>
   </div>
 </main>
