@@ -16,8 +16,8 @@ https://imc-pictweet.herokuapp.com/
 # 利用方法
 
 ## 画像投稿
-1.トップページのヘッダーからユーザー新規登録を行う;
-2.New Protoボタンから画像内容(タイトル、演者名、写真)を入力し、投稿する;
+- 1.トップページのヘッダーからユーザー新規登録を行う
+- 2.New Protoボタンから画像内容(タイトル、演者名、写真)を入力し、投稿する
 
 ## 演者ごとの来店スケジュール確認
 トップページから好きな演者の写真をクリックして、スケジュール画面へ遷移する
@@ -34,8 +34,8 @@ https://docs.google.com/spreadsheets/d/1uQ0kj6LyqW6AXqOezEnFrASEMCtaultto0bwqAwU
 https://gyazo.com/ee2703795fb2a79c2df68931f039aac5
 
 ## 必要項目を入力し写真を投稿する事ができます
-https://gyazo.com/3badc519b4c0e493b39801cb1a32b931
-https://gyazo.com/dbaf8f08d0340e249ac607923d9b3e34
+- https://gyazo.com/3badc519b4c0e493b39801cb1a32b931
+- https://gyazo.com/dbaf8f08d0340e249ac607923d9b3e34
 
 # 実装予定の機能
 今後はチャット機能を実装しファン同士でさらにコミュニケーションを取る事ができるようにしたい。
