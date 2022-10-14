@@ -29,9 +29,28 @@
    <a href="https://imc-imuch.com/">　　　　　　　　　　　　　　　　　　　➡クリックすると、公式サイトへ移動します⬅</a>
     <div class="card__wrapper">
       <h2 class='photo'>
-      <%=  "パチンコ・パチスロ画像共有はこちら⬇︎"%>
+      <%=  "パチンコ・パチスロ画像共有はこちら⬇︎⬇︎⬇︎"%>
      </h2>
       <%= render partial: "prototype",collection: @prototypes%>
+      <% if @prototypes.length == 0 %>
+      <li class='list'>
+        <%= link_to new_prototype_path do %>
+       
+        <div class='item-info'>
+          <h3 class='item-name'>
+            画像を投稿してね！
+          </h3>
+          
+            
+            
+              <%= image_tag "bbabba.png", class:"star-icon" %>
+            
+            
+          
+        </div>
+        <% end %>
+      </li>
+      <% end %>
     </div>
   </div>
 </main>
